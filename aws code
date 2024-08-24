@@ -1,0 +1,112 @@
+[ec2-user@ip-172-31-30-206 ~]$ pwd
+/home/ec2-user
+[ec2-user@ip-172-31-30-206 ~]$ ls -l
+total 0
+[ec2-user@ip-172-31-30-206 ~]$ mkdir my_folder
+[ec2-user@ip-172-31-30-206 ~]$ cd my_folder/
+[ec2-user@ip-172-31-30-206 my_folder]$ pwd
+/home/ec2-user/my_folder
+[ec2-user@ip-172-31-30-206 my_folder]$ touch my_file.txt
+[ec2-user@ip-172-31-30-206 my_folder]$ vim my_file.txt 
+[ec2-user@ip-172-31-30-206 my_folder]$ cat my_file.txt 
+My first file is here..
+[ec2-user@ip-172-31-30-206 my_folder]$ touch another_file.txt
+[ec2-user@ip-172-31-30-206 my_folder]$ vim another_file.txt 
+[ec2-user@ip-172-31-30-206 my_folder]$ cat another_file.txt 
+My second file is here..
+[ec2-user@ip-172-31-30-206 my_folder]$ cat another_file.txt >> my_file.txt 
+[ec2-user@ip-172-31-30-206 my_folder]$ cat my_file.txt 
+My first file is here..
+My second file is here..
+[ec2-user@ip-172-31-30-206 my_folder]$ ls -l
+total 8
+-rw-r--r--. 1 ec2-user ec2-user 25 Aug 24 09:21 another_file.txt
+-rw-r--r--. 1 ec2-user ec2-user 49 Aug 24 09:21 my_file.txt
+[ec2-user@ip-172-31-30-206 my_folder]$ mkdir task2
+[ec2-user@ip-172-31-30-206 my_folder]$ cd task2/
+[ec2-user@ip-172-31-30-206 task2]$ pwd
+/home/ec2-user/my_folder/task2
+[ec2-user@ip-172-31-30-206 task2]$ touch filename{1..20}.txt
+[ec2-user@ip-172-31-30-206 task2]$ ls -l
+total 0
+-rw-r--r--. 1 ec2-user ec2-user 0 Aug 24 09:22 filename1.txt
+-rw-r--r--. 1 ec2-user ec2-user 0 Aug 24 09:22 filename10.txt
+-rw-r--r--. 1 ec2-user ec2-user 0 Aug 24 09:22 filename11.txt
+-rw-r--r--. 1 ec2-user ec2-user 0 Aug 24 09:22 filename12.txt
+-rw-r--r--. 1 ec2-user ec2-user 0 Aug 24 09:22 filename13.txt
+-rw-r--r--. 1 ec2-user ec2-user 0 Aug 24 09:22 filename14.txt
+-rw-r--r--. 1 ec2-user ec2-user 0 Aug 24 09:22 filename15.txt
+-rw-r--r--. 1 ec2-user ec2-user 0 Aug 24 09:22 filename16.txt
+-rw-r--r--. 1 ec2-user ec2-user 0 Aug 24 09:22 filename17.txt
+-rw-r--r--. 1 ec2-user ec2-user 0 Aug 24 09:22 filename18.txt
+-rw-r--r--. 1 ec2-user ec2-user 0 Aug 24 09:22 filename19.txt
+-rw-r--r--. 1 ec2-user ec2-user 0 Aug 24 09:22 filename2.txt
+-rw-r--r--. 1 ec2-user ec2-user 0 Aug 24 09:22 filename20.txt
+-rw-r--r--. 1 ec2-user ec2-user 0 Aug 24 09:22 filename3.txt
+-rw-r--r--. 1 ec2-user ec2-user 0 Aug 24 09:22 filename4.txt
+-rw-r--r--. 1 ec2-user ec2-user 0 Aug 24 09:22 filename5.txt
+-rw-r--r--. 1 ec2-user ec2-user 0 Aug 24 09:22 filename6.txt
+-rw-r--r--. 1 ec2-user ec2-user 0 Aug 24 09:22 filename7.txt
+-rw-r--r--. 1 ec2-user ec2-user 0 Aug 24 09:22 filename8.txt
+-rw-r--r--. 1 ec2-user ec2-user 0 Aug 24 09:22 filename9.txt
+[ec2-user@ip-172-31-30-206 task2]$ mv filename1.txt file1.yml
+[ec2-user@ip-172-31-30-206 task2]$ mv filename2.txt file2.yml
+[ec2-user@ip-172-31-30-206 task2]$ mv filename3.txt file3.yml
+[ec2-user@ip-172-31-30-206 task2]$ mv filename4.txt file4.yml
+[ec2-user@ip-172-31-30-206 task2]$ mv filename5.txt file5.yml
+[ec2-user@ip-172-31-30-206 task2]$ ls -l
+total 0
+-rw-r--r--. 1 ec2-user ec2-user 0 Aug 24 09:22 file1.yml
+-rw-r--r--. 1 ec2-user ec2-user 0 Aug 24 09:22 file2.yml
+-rw-r--r--. 1 ec2-user ec2-user 0 Aug 24 09:22 file3.yml
+-rw-r--r--. 1 ec2-user ec2-user 0 Aug 24 09:22 file4.yml
+-rw-r--r--. 1 ec2-user ec2-user 0 Aug 24 09:22 file5.yml
+-rw-r--r--. 1 ec2-user ec2-user 0 Aug 24 09:22 filename10.txt
+-rw-r--r--. 1 ec2-user ec2-user 0 Aug 24 09:22 filename11.txt
+-rw-r--r--. 1 ec2-user ec2-user 0 Aug 24 09:22 filename12.txt
+-rw-r--r--. 1 ec2-user ec2-user 0 Aug 24 09:22 filename13.txt
+-rw-r--r--. 1 ec2-user ec2-user 0 Aug 24 09:22 filename14.txt
+-rw-r--r--. 1 ec2-user ec2-user 0 Aug 24 09:22 filename15.txt
+-rw-r--r--. 1 ec2-user ec2-user 0 Aug 24 09:22 filename16.txt
+-rw-r--r--. 1 ec2-user ec2-user 0 Aug 24 09:22 filename17.txt
+-rw-r--r--. 1 ec2-user ec2-user 0 Aug 24 09:22 filename18.txt
+-rw-r--r--. 1 ec2-user ec2-user 0 Aug 24 09:22 filename19.txt
+-rw-r--r--. 1 ec2-user ec2-user 0 Aug 24 09:22 filename20.txt
+-rw-r--r--. 1 ec2-user ec2-user 0 Aug 24 09:22 filename6.txt
+-rw-r--r--. 1 ec2-user ec2-user 0 Aug 24 09:22 filename7.txt
+-rw-r--r--. 1 ec2-user ec2-user 0 Aug 24 09:22 filename8.txt
+-rw-r--r--. 1 ec2-user ec2-user 0 Aug 24 09:22 filename9.txt
+[ec2-user@ip-172-31-30-206 task2]$ ls -lt | head - n 6
+==> standard input <==
+total 0
+-rw-r--r--. 1 ec2-user ec2-user 0 Aug 24 09:22 file1.yml
+-rw-r--r--. 1 ec2-user ec2-user 0 Aug 24 09:22 file2.yml
+-rw-r--r--. 1 ec2-user ec2-user 0 Aug 24 09:22 file3.yml
+-rw-r--r--. 1 ec2-user ec2-user 0 Aug 24 09:22 file4.yml
+-rw-r--r--. 1 ec2-user ec2-user 0 Aug 24 09:22 file5.yml
+-rw-r--r--. 1 ec2-user ec2-user 0 Aug 24 09:22 filename10.txt
+-rw-r--r--. 1 ec2-user ec2-user 0 Aug 24 09:22 filename11.txt
+-rw-r--r--. 1 ec2-user ec2-user 0 Aug 24 09:22 filename12.txt
+-rw-r--r--. 1 ec2-user ec2-user 0 Aug 24 09:22 filename13.txt
+head: cannot open 'n' for reading: No such file or directory
+head: cannot open '6' for reading: No such file or directory
+[ec2-user@ip-172-31-30-206 task2]$ ls -t | head - n 6
+==> standard input <==
+file1.yml
+file2.yml
+file3.yml
+file4.yml
+file5.yml
+filename10.txt
+filename11.txt
+filename12.txt
+filename13.txt
+filename14.txt
+head: cannot open 'n' for reading: No such file or directory
+head: cannot open '6' for reading: No such file or directory
+[ec2-user@ip-172-31-30-206 task2]$ ls -t | head -n 5
+file1.yml
+file2.yml
+file3.yml
+file4.yml
+file5.yml
