@@ -3,6 +3,7 @@
 ![Task 1 output](https://github.com/user-attachments/assets/0721ef1f-274c-483b-bb7d-e5c0a99cc1e3)
 ![output2](https://github.com/user-attachments/assets/39ee9d2c-47cc-4d10-b302-f1390ea2f801)
 ![output 4](https://github.com/user-attachments/assets/88ef13b6-ee63-43ff-b3ef-072985a4997c)
+![output 6](https://github.com/user-attachments/assets/8c315a7b-0d67-47c6-a301-4d87b8e259e7)
 ![output 5](https://github.com/user-attachments/assets/789fa9d4-d94e-4f71-8204-8ca1634b524c)
 
 
